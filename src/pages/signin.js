@@ -13,9 +13,9 @@ import {
 }
 from 'mdb-react-ui-kit';
 
-function App() {
+function SignInPage() {
   return (
-    <MDBContainer fluid>
+    <MDBContainer fluid className="login">
 
       <MDBRow className='d-flex justify-content-center align-items-center h-100'>
         <MDBCol col='12'>
@@ -47,4 +47,4 @@ function App() {
   );
 }
 
-export default App;
+export default SignInPage;

@@ -84,11 +84,3 @@ margin-left: 24px;
 	color: #808080;
 }
 `;
-// export const a = styled(brand-name)`
-// .brand-name {
-//   text-decoration: none;
-//   color: black;
-//   font-size: 1.3rem;
-//   margin-left: 1rem;
-// }
-// `;

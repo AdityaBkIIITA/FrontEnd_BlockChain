@@ -1,18 +1,10 @@
 import React from 'react';
+import SimpleTable from './SimpleTable'; 
 
-const Home = () => {
+const HomePage = () => {
 return (
-	<div
-	style={{
-		display: 'flex',
-		justifyContent: 'Right',
-		alignItems: 'Right',
-		height: '100vh'
-	}}
-	>
-	<h1>Welcome to GeeksforGeeks</h1>
-	</div>
+	<SimpleTable/>
 );
 };
 
-export default Home;
+export default HomePage;
